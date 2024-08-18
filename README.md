@@ -1,10 +1,10 @@
 To start the login form:
 -npm install
 * FRONTEND:
-  -cd frontend
+  -cd frontend,
   npm start
 * BACKEND:
- -cd backend
+ -cd backend,
  npm start
 
 The backend data on (localhost:5000/usernames)
