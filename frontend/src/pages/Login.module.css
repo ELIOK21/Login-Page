@@ -1,0 +1,233 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.smallTeamDiscussingIdeas21Icon {
+  position: absolute;
+  top: 127px;
+  left: 616px;
+  width: 809px;
+  height: 650px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.groupChild {
+  top: 0;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 505px;
+  height: 701px;
+}
+.groupChild,
+.signIn,
+.signInWrapper {
+  position: absolute;
+  left: 0;
+}
+.signIn {
+  top: 0;
+  font-weight: 500;
+}
+.signInWrapper {
+  top: 67px;
+  width: 112px;
+  height: 47px;
+}
+.welcome {
+  font-size: 25px;
+  font-weight: 300;
+}
+.instanceChild,
+.userName,
+.welcome {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.userName {
+  width: 92.2%;
+  display: inline-block;
+}
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 0.6px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.enterYourUser {
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  position: absolute;
+  top: 32.2%;
+  left: 6.38%;
+  color: var(--color-darkgray);
+  text-align: left;
+}
+.rectangleGroup {
+  position: absolute;
+  height: 64.13%;
+  width: 100%;
+  top: 35.87%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupItem,
+.instanceContainer,
+.instanceWrapper,
+.userNameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 423px;
+  height: 92px;
+}
+.groupItem,
+.instanceContainer,
+.instanceWrapper {
+  top: 228px;
+}
+.groupItem,
+.instanceContainer {
+  top: 114px;
+}
+.groupItem {
+  top: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-black);
+  height: 57px;
+}
+.logIn {
+  position: absolute;
+  top: 17px;
+  left: 185px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 357px;
+  left: 0;
+  width: 423px;
+  height: 57px;
+}
+.groupButton:hover,
+.rectangleParent1:hover {
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.componentParent {
+  position: absolute;
+  top: 146px;
+  left: 6px;
+  width: 423px;
+  height: 414px;
+  font-size: var(--font-size-base);
+}
+.groupParent {
+  position: absolute;
+  top: 36px;
+  left: 35px;
+  width: 429px;
+  height: 560px;
+}
+.groupInner,
+.loginInner,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 505px;
+  height: 701px;
+}
+.groupInner,
+.loginInner {
+  top: 114px;
+  left: 111px;
+}
+.groupInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-black);
+  width: 300px;
+  height: 57px;
+}
+.reset {
+  position: absolute;
+  top: 17px;
+  left: 129px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 54px;
+}
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 720px;
+  left: 213px;
+  width: 300px;
+  height: 57px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login {
+  position: fixed;
+  top: 60%; /* Adjust this value to move it down */
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9); /* Adjust the scale value as needed */
+  transform-origin: center center;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 31px;
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+/* Add this to your Login.module.css */
+.eyeIcon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px; /* Adjust the positioning as needed */
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 1.2em; /* Adjust the font size as needed */
+}
